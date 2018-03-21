@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #011b39;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  flex: 1;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.eduzz-logo {
+  width: 200px;
+  max-width: 500px;
+  min-width: 30px;
+  height: 200px;
+  max-height: 500px;
+  min-height: 30px;
+  background: #ffcc32;
+  border-radius: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.eduzz-logo .eduzz-bars {
+  min-width: calc(200px / 3);
+  height: calc(200px / 5.2);
+  background: #ffffff;
+  margin-bottom: calc(200px / 15);
+  border-radius: 0 50px 50px 0;
+}
+.eduzz-logo .eduzz-bars:nth-child(1) {
+  width: calc(200px / 2);
+}
+.eduzz-logo .eduzz-bars:nth-child(3) {
+  width: calc(200px / 2);
+  margin-bottom: 0;
+}
+
+img {
+  width: calc(200px + 10px);
+}
